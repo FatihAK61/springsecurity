@@ -1,4 +1,6 @@
-package com.authservice.springsecurity.utils;
+package com.authservice.springsecurity.service;
+
+import jakarta.mail.MessagingException;
 
 public interface IEmailService {
 

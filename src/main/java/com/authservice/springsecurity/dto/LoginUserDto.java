@@ -1,22 +1,14 @@
-package shujaa.authentication_with_spring.security.dto;
+package com.authservice.springsecurity.dto;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class LoginUserDto {
-    private String identifier;
+
+    private String username;
+
     private String password;
 
-    public String getIdentifier() {
-        return identifier;
-    }
-
-    public void setIdentifier(String identifier) {
-        this.identifier = identifier;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
 }
